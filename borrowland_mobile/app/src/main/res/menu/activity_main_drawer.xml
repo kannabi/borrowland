@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_loans_list"
+            android:title="@string/menu_item_loan_list" />
+        <item
+            android:id="@+id/menu_item_loans_history"
+            android:title="@string/menu_item_loans_history" />
+        <item
+            android:id="@+id/menu_item_about"
+            android:title="@string/menu_item_about" />
+        <item
+            android:id="@+id/menu_item_quit"
+            android:title="@string/menu_item_quit" />
+    </group>
+
+</menu>

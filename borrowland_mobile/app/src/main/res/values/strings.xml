@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Borrowland</string>
+    <integer name="com_vk_sdk_AppId">5868519</integer>
+    <string name="login_button_text">VK LOGIN</string>
+    <string name="login_activity_error_message">Sorry, something went wrong :|</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="name_tab_in_loans">Мне</string>
+    <string name="name_tab_out_loans">Я</string>
+    <string name="name_tab_all_loans">Все долги</string>
+    <string name="menu_item_loan_list">Список займов</string>
+    <string name="menu_item_loans_history">История займов</string>
+    <string name="menu_item_about">О приложении</string>
+    <string name="menu_item_quit">Выйти</string>
+    
+    <string name="server_address">http://10.0.2.2:1488/</string>
+    <string name="client_id">client_id</string>
+    <string name="global_settings">GLOBAL</string>
+
+    <string name="title_activity_adding_loan">AddingLoanActivity</string>
+</resources>

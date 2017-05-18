@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/closed_loan_item_ext"
+    android:paddingBottom="@dimen/item_loan_ext_padding"
+    android:paddingLeft="@dimen/item_loan_ext_padding"
+    android:paddingRight="@dimen/item_loan_ext_padding"
+    android:paddingTop="@dimen/item_loan_ext_padding">
+
+
+    <TextView
+        android:id="@+id/closed_loan_item_name"
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/closed_loan_item_sum"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="@dimen/item_loan_in_padding"
+        android:paddingLeft="@dimen/item_loan_in_padding"
+        android:paddingRight="@dimen/item_loan_in_padding"
+        android:paddingTop="@dimen/item_loan_in_padding"/>
+
+    <TextView
+        android:id="@+id/closed_loan_item_sum"
+        android:text="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="170dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+
+        android:paddingBottom="@dimen/item_loan_in_padding"
+        android:paddingLeft="@dimen/item_loan_in_padding"
+        android:paddingRight="@dimen/item_loan_in_padding"
+        android:paddingTop="@dimen/item_loan_in_padding"/>
+
+    <TextView
+        android:id="@+id/closed_loan_item_date"
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/closed_loan_item_sum"
+        android:layout_below="@+id/closed_loan_item_name"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+
+        android:paddingBottom="@dimen/item_loan_in_padding"
+        android:paddingLeft="@dimen/item_loan_in_padding"
+        android:paddingRight="@dimen/item_loan_in_padding"
+        android:paddingTop="@dimen/item_loan_in_padding"/>
+
+    <TextView
+        android:id="@+id/closed_loan_item_close_date"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/closed_loan_item_date"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/closed_loan_item_sum"
+        android:textSize="18sp"
+
+        android:paddingBottom="@dimen/item_loan_in_padding"
+        android:paddingLeft="@dimen/item_loan_in_padding"
+        android:paddingRight="@dimen/item_loan_in_padding"
+        android:paddingTop="@dimen/item_loan_in_padding"/>
+
+</RelativeLayout>

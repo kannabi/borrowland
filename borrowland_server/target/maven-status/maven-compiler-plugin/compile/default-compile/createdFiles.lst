@@ -1,0 +1,12 @@
+com\lackhite\borrowland\server\repositories\UserRepository.class
+com\lackhite\borrowland\server\Application.class
+com\lackhite\borrowland\server\StaticDateFormat.class
+com\lackhite\borrowland\server\domain\ClosedLoan.class
+com\lackhite\borrowland\server\domain\User.class
+com\lackhite\borrowland\server\domain\LoanContainer.class
+com\lackhite\borrowland\server\repositories\ActiveLoanRepository.class
+com\lackhite\borrowland\server\repositories\ClosedLoanRepository.class
+com\lackhite\borrowland\server\controller\Controller.class
+com\lackhite\borrowland\server\controller\ErrorJson.class
+com\lackhite\borrowland\server\domain\ActiveLoan.class
+com\lackhite\borrowland\server\controller\CustomErrorController.class
